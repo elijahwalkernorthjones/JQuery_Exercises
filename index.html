@@ -74,13 +74,24 @@
 </div>
 <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
 <script>
+  //QUESTION 1
     $(document).ready(function(){
       console.log("Let's get ready to party with JQuery!");
     });
-
+//QUESTION 2
     $('article img').addClass('#image-center');
-
+//QUESTION 3
     $('p').last().remove();
+//QUESTION 4
+    const randomTitleFontSize = Math.floor(Math.random()*100);
+    $('#title').css('font-size', randomTitleFontSize);
+//QUESTION 5
+    $('ol').append("<li>ANYTHING I WANTTTTT</li>");
+//QUESTION 6
+    $('aside')
+    .empty()
+    .append($("<p>", {text: "Something in place of the ordered list"}))
+
 
 </script>
 </body>
